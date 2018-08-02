@@ -9,11 +9,15 @@ import { connect } from 'react-redux';
 import {COLOR_MAIN} from '../themes/color';
 import Title from '../components/Title';
 
+/**
+ * Device Screen Component displays the detailed information of selected device.
+ */
 class Device extends Component {
 
   constructor(props) {
     super(props);
   }
+  
   render() {
     return (<Container style={{ paddingTop: '20px', paddingBottom: '20px' }}>
     <Title/>

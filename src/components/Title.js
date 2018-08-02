@@ -4,6 +4,9 @@ import {
 } from "semantic-ui-react";
 import { COLOR_MAIN } from '../themes/color';
 
+/**
+ * Title Component that can be included in different screens.
+ */
 const Title = (props) => {
     return (
         <div>

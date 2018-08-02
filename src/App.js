@@ -26,6 +26,13 @@ const pReducer = persistReducer(persistConfig, reducers);
 const store = createStore(pReducer);
 const persistor = persistStore(store);
 
+
+/**
+ * Root Component of the application.
+ * BrowserRouter - Routing Configuration.
+ * Provider - Application state using redux.
+ * PersistGate - Application state are persisted in localstorage.
+ */
 class App extends Component {
   render() {
     return (

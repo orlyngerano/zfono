@@ -15,6 +15,10 @@ import fono from '../api/fono';
 import Title from '../components/Title';
 
 
+/**
+ * Home Screen Component that display search box and search result listing of mobile devices.
+ * Defaults to latest listing of mobile devices.
+ */
 class Home extends Component {
 
   constructor(props) {

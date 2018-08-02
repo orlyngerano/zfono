@@ -5,5 +5,9 @@ import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import 'semantic-ui-css/semantic.min.css'
 
+/**
+ * Binding of app component to root element.
+ * Include semantic css framework.
+ */
 ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();

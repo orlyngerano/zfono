@@ -3,6 +3,10 @@ import {
     REQUEST_DEVICE
 } from '../actions/Device'
 
+/**
+ * application states. all data are modeled and kept here
+ */
+
 const initState = {
     devices: [],
     searchWord: '',
