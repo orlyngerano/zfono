@@ -1,0 +1,2 @@
+export const RECEIVE_DEVICES = 'RECEIVE_DEVICES';
+export const REQUEST_DEVICE = 'REQUEST_DEVICE';
